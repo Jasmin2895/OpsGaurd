@@ -2,7 +2,6 @@
 
 A multi-tenant, AI-enabled document access system powered by **Permit.io** for fine-grained authorization and approval workflows.
 
----
 
 ## 🔧 Local Setup
 
@@ -62,7 +61,6 @@ npm run start
 
 Visit: [http://localhost:3000](http://localhost:3000)
 
----
 
 ## 🚀 Testing on Production (Heroku or any Cloud)
 
@@ -109,7 +107,6 @@ Visit your deployed app:
 └── README.md
 ```
 
----
 ## LICENSE
 MIT (c) 2020 Jasmin Virdi
 
