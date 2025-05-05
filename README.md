@@ -2,6 +2,19 @@
 
 A multi-tenant, AI-enabled document access system powered by **Permit.io** for fine-grained authorization and approval workflows.
 
+## Users for testing on prod.
+| type | userId       | tenantId  | User Status|
+|------|--------------|-----------|------------|
+| admin    | admin         | default    | old    |
+| admin    | new_user           | default   | old|
+| no role    | new_user_1           | default     | new |
+| editor    | old_engineering_user           | engineering   | old  |
+| no role    | new_engineering_user_1        | engineering   | new   |
+| product   | old_product_user          | product      | old   |
+| no role   | new_product_user_2          | product      | new   |
+
+*Use the userId with **no_role to test approval** and denial flow and assigned **admin, editor and product role to test happy path**.*
+
 
 ## 🔧 Local Setup
 
